@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.13.7"
+  version: "1.13.8"
 
 package:
   name: talosctl
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/siderolabs/talos/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2694a289d868ecb5ab2b0fcfbf61c452dfbc6540fab1c6b49f52d451755b5c8a
+  sha256: e95fb856af66ddec36368fcb30980b75efe808c7e48db71a55716fe811edbbfa
 
 build:
   number: 0
